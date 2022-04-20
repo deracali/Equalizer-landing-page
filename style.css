@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #fcfaf9;
+  --width-percent: 100%;
+  --body-width: 1400px;
+}
+
+body {
+  width: var(--width-percent);
+  max-width: var(--body-width);
+  margin: 50px auto;
+  background-image: url(/images/bg-main-desktop.png);
+  background-position: 20% 23%;
+  background-size: cover;
+  background-color: var(--color-bg);
+}
+
+header {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+header .header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-pattern-1 {
+  transform: translate(37%, -15%);
+}
+
+.header-content {
+  width: var(--width-percent);
+  max-width: 600px;
+}
+
+.logo {
+  margin-bottom: 6.4rem;
+}
+
+header h1 {
+  font-size: 65px;
+  margin-bottom: 2.4rem;
+}
+
+header p {
+  font-size: 1.4rem;
+  width: 131%;
+  line-height: 1.4;
+}
+
+.features-container {
+  border-radius: 15px;
+  background: black;
+  display: flex;
+  align-items: baseline;
+  height: 600px;
+  width: 89%;
+  margin: 0 111px;
+}
+
+.features .illustrator-img {
+  width: var(--width-percent);
+  max-width: 250px;
+  transform: translate(43%, -30%);
+  z-index: 10;
+}
+
+.features .bg-pattern-2 {
+  transform: translate(10%, -20%);
+  width: 100%;
+  max-width: 300px;
+}
+
+.premium-box {
+  width: 100%;
+  height: 350px;
+  max-width: 600px;
+  background: bisque;
+  transform: translate(-4%, -89%);
+  border-radius: 18px;
+  padding: 43px;
+}
+
+.premium-box h3 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.premium-box p {
+  font-size: 1.4rem;
+  width: 100%;
+  max-width: 345px;
+  line-height: 1.5;
+}
+
+.download a {
+  display: block;
+}
