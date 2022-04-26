@@ -130,6 +130,7 @@ header p {
   align-items: center;
   gap: 8px;
   margin-bottom: 1.4rem;
+  color: #fff;
 }
 
 .download .ios {
@@ -161,4 +162,98 @@ ul {
   gap: 20px;
   cursor: pointer;
   transform: translateX(42px);
+}
+
+@media (max-width: 1272px) {
+  .features .illustrator-img {
+    width: var(--width-percent);
+    max-width: 328px;
+    transform: translate(26%, -30%);
+  }
+
+  .premium-box {
+    transform: translate(-7%, -68%);
+  }
+
+  .features .bg-pattern-2 {
+    transform: translate(16%, -41%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .premium-box {
+    padding: 45px 23px 11px 37px;
+  }
+
+  .features-container {
+    margin: 0 auto;
+    margin-bottom: 350px;
+  }
+}
+
+/* @media (max-width: 1160px) {
+  .premium-box {
+    transform: translate(-14%, -68%);
+    height: 712px;
+  }
+} */
+
+@media (max-width: 1160px) {
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    height: 1274px;
+  }
+
+  .features .illustrator-img {
+    transform: translate(96%, -30%);
+  }
+
+  .features .bg-pattern-2 {
+    transform: translate(65%, -102%);
+    max-width: 420px;
+  }
+
+  .premium-box {
+    transform: translate(4%, -126%);
+    height: 663px;
+    padding: 45px 58px 11px 56px;
+    max-width: 919px;
+  }
+
+  .premium-box .premium-text {
+    max-width: 100%;
+  }
+
+  p .price {
+    font-size: 1.2rem;
+  }
+
+  .price span {
+    font-size: 83px;
+  }
+
+  .download {
+    padding-bottom: 33px;
+  }
+
+  .download a {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+    align-items: baseline;
+    margin: -232px 0 0 53px;
+  }
+
+  footer p {
+    width: 100%;
+    max-width: 50%;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
 }
