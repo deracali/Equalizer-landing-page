@@ -203,6 +203,7 @@ ul {
     display: flex;
     flex-direction: column;
     height: 1274px;
+    width: 100%;
   }
 
   .features .illustrator-img {
@@ -218,7 +219,7 @@ ul {
     transform: translate(4%, -126%);
     height: 663px;
     padding: 45px 58px 11px 56px;
-    max-width: 919px;
+    max-width: 90%;
   }
 
   .premium-box .premium-text {
@@ -255,5 +256,118 @@ ul {
     max-width: 50%;
     font-size: 1.4rem;
     font-weight: 500;
+  }
+}
+
+@media (max-width: 941px) {
+  body {
+    padding: 40px;
+  }
+
+  .bg-pattern-1 {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    width: 107%;
+  }
+
+  .features .illustrator-img {
+    transform: translate(64%, -27%);
+  }
+
+  .features .bg-pattern-2 {
+    transform: translate(37%, -102%);
+    max-width: 60%;
+  }
+
+  .premium-box {
+    transform: translate(4%, -126%);
+  }
+
+  footer p {
+    width: 100%;
+    max-width: 76%;
+  }
+}
+
+@media (max-width: 777px) {
+  .features .illustrator-img {
+    transform: translate(57%, -27%);
+    max-width: 40%;
+  }
+
+  .features .bg-pattern-2 {
+    transform: translate(29%, -97%);
+    max-width: 59%;
+  }
+
+  .premium-box {
+    transform: translate(4%, -94%);
+  }
+}
+
+@media (max-width: 693px) {
+  .premium-box {
+    transform: translate(4%, -73%);
+  }
+}
+
+@media (max-width: 600px) {
+  header p {
+    font-size: 1.2rem;
+    width: 99%;
+  }
+
+  .features-container {
+    height: 1142px;
+  }
+}
+
+@media (max-width: 565px) {
+  .premium-box {
+    height: 80%;
+    transform: translate(4%, -59%);
+  }
+
+  .premium-box .premium-text {
+    font-size: 1.2rem;
+  }
+
+  .download a {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 457px) {
+  .premium-box {
+    height: 80%;
+    transform: translate(4%, -39%);
+    padding: 45px 18px 11px 23px;
+  }
+
+  .premium-box .premium-text {
+    font-size: 1.1rem;
+  }
+
+  .download a {
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+  footer p {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 397px) {
+  header h1 {
+    font-size: 30px;
   }
 }
