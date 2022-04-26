@@ -366,6 +366,12 @@ ul {
   }
 }
 
+@media (max-width: 414px) {
+  header h1 {
+    font-size: 34px;
+  }
+}
+
 @media (max-width: 397px) {
   header h1 {
     font-size: 30px;
