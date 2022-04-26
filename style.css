@@ -366,9 +366,12 @@ ul {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 432px) {
   header h1 {
-    font-size: 34px;
+    font-size: 30px;
+  }
+  .features-container {
+    height: 1035px;
   }
 }
 
